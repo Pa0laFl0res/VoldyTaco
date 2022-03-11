@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta https-equiv="X-UA Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pestelería</title>
+</head>
+
+<body>
+    <h1>Realiza tu pedido</h1>
+
+    <p>regresar a menú</p>
+    <a href="./Taquería.html">
+        <button>Quiero ver el menú de nuevo</button>
+    </a>
+
+
+    <br><br>
+
+
+    <form action="pedido.js">
+        <label for="Nombre">Proporciona tu nombre</label><br>
+        <input type="text" id="Nombre" placeholder="Nombre">
+
+
+        <br><br>
+
+
+
+        <p>¿Para comer en sucursal, recoger en sucursal o entrega a domicilio?</p>
+        <input type="radio" id="Recogerpedido" name="Entregadepedido" value="Recogerpedido">
+        <label for="Recogerpedido">Recoger pedido</label><br>
+        <input type="radio" id="Comerensucursal" name="Entregadepedido" value="Comerensucursal">
+        <label for="Comerensucursal">Comer en sucursal</label><br>
+        <input type="radio" id="domicilio" name="Entregadeopedido" value="domicilio">
+        <label for="domicilio">domicilio</label><br>
+        <input type="text" id="domicilio" placeholder="domicilio">
+
+
+
+        <br><br>
+
+
+
+
+        <p>¿Qué y cuántos voldytacos va a pedir?</p>
+        <input type="checkbox" id="Tacos de Hipogrifo" name="Tacos de Hipogrifo" value="Tacos de Hipogrifo">
+        <label for="Tacos de Hipogrifo">Tacos de Hipogrifo</label>
+        <input type="number" id="TacosdeHipogrifoCuántos" name="TacosdeHipogrifoCuántos" placeholder="¿Cuántos?"><br>
+        <input type="checkbox" id="Tacos de Duendecillo de Cornualles" name="Tacos de Duendecillo de Cornualles" value="Tacos de Duendecillo de Cornualles">
+        <label for="Tacos de Duendecillo de Cornualles">Tacos de Duendecillo de Cornualles</label>
+        <input type="number" id="TacosdeDuendecillodeCornuallesCuántos" name="TacosdeDuendecillodeCornuallesCuántos" placeholder="¿Cuántos?"><br>
+        <input type="checkbox" id="Tacos de Elfo doméstico" name="Tacos de Elfo doméstico" value="Tacos de Elfo doméstico">
+        <label for="Tacos de Elfo doméstico">Tacos de Elfo doméstico</label>
+        <input type="number" id="TacosdeElfodomésticoCuántos" name="TacosdeElfodomésticoCuántos" placeholder="¿Cuántos?"><br>
+        <input type="checkbox" id="Tacos de Unicornio" name="Tacos de Unicornio" value="Tacos de Unicornio">
+        <label for="Tacos de Unicornio">Tacos de Unicornio</label>
+        <input type="number" id="TacosdeUnicornioCuántos" name="TacosdeUnicornioCuántos" placeholder="¿Cuántos?"><br>
+        <input type="checkbox" id="Tacos de Trevor" name="Tacos de Trevor" value="Tacos de Trevor">
+        <label for="Tacos de Trevor">Tacos de Trevor</label>
+        <input type="number" id="TacosdeTrevorCuántos" name="TacosdeTrevorCuántos" placeholder="¿Cuántos?"><br>
+        <input type="checkbox" id="Tacos de Aragog" name="Tacos de Aragog" value="Tacos de Aragog">
+        <label for="Tacos de Aragog">Tacos de Aragog</label>
+        <input type="number" id="TacosdeAragogCuántos" name="TacosdeAragogCuántos" placeholder="¿Cuántos?"><br>
+        <input type="checkbox" id="Tacos de Phoenix" name="Tacos de Phoenix" value="Tacos de Phoenix">
+        <label for="Tacos de Phoenix">Tacos de Phoenix</label>
+        <input type="number" id="TacosdePhoenixCuántos" name="TacosdePhoenixCuántos" placeholder="¿Cuántos?"><br>
+        <input type="checkbox" id="Tacos de Mandrágora" name="Tacos de Mandrágora" value="Tacos de Mandrágora">
+        <label for="Tacos de Mandrágora">Tacos de Mandrágora</label>
+        <input type="number" id="TacosdeMandrágoraCuántos" name="TacosdeMandrágoraCuántos" placeholder="¿Cuántos?"><br>
+        <input type="checkbox" id="Tacos de Colacuerno" name="Tacos de Colacuerno" value="Tacos de Colacuerno">
+        <label for="Tacos de Colacuerno">Tacos de Colacuerno</label>
+        <input type="number" id="TacosdeColacuernoCuántos" name="TacosdeColacuernoCuántos" placeholder="¿Cuántos?"><br>
+        <input type="checkbox" id="Tacos de Troll" name="Tacos de Troll" value="Tacos de Troll">
+        <label for="Tacos de Troll">Tacos de Troll</label>
+        <input type="number" id="TacosdeTrollCuántos" name="TacosdeTrollCuántos" placeholder="¿Cuántos?"><br>
+        <input type="checkbox" id="Tacos de Nagini" name="Tacos de Nagini" value="Tacos de Nagini">
+        <label for="Tacos de Nagini">Tacos de Nagini</label>
+        <input type="number" id="TacosdeNaginiCuántos" name="TacosdeNaginiCuántos" placeholder="¿Cuántos?"><br>
+        <input type="checkbox" id="Tacos de Basilisco" name="Tacos de Basilisco" value="Tacos de Basilisco">
+        <label for="Tacos de Basilisco">Tacos de Basilisco</label>
+        <input type="number" id="TacosdeBasiliscoCuántos" name="TacosdeBasiliscoCuántos" placeholder="¿Cuántos?"><br>
+
+
+        <br><br>
+
+        <p>¿Algún combo?...</p>
+        <input type="checkbox" id="así te quería agarrar puerco" name="así te quería agarrar puerco" value="así te quería agarrar puerco">
+        <label for="así te quería agarrar puerco">así te quería agarrar puerco</label>
+        <input type="number" id="así te quería agarrar puercoCuántos" name="así te quería agarrar puercoCuántos" placeholder="¿Cuántos?"><br>
+        <input type="checkbox" id="El Quisquilloso" name="El Quisquilloso" value="El Quisquilloso">
+        <label for="El Quisquilloso">El Quisquilloso</label>
+        <input type="number" id="ElQuisquillosoCuántos" name="ElQuisquillosoCuántos" placeholder="¿Cuántos?"><br>
+        <input type="checkbox" id="¿asustado Potter?" name="¿asustado Potter?" value="¿asustado Potter?">
+        <label for="¿asustado Potter?">¿asustado Potter?</label>
+        <input type="number" id="¿asustadoPotter?Cuántos" name="¿asustadoPotter?Cuántos" placeholder="¿Cuántos?"><br>
+        <input type="checkbox" id="Engorgio" name="Engorgio" value="Engorgio">
+        <label for="Engorgio">Engorgio</label>
+        <input type="number" id="EngorgioCuántos" name="EngorgioCuántos" placeholder="¿Cuántos?"><br>
+        <input type="checkbox" id="sólo para muggles :)" name="sólo para muggles :)" value="sólo para muggles :)">
+        <label for="sólo para muggles :)">sólo para muggles :)</label>
+        <input type="number" id="sóloparamuggles:)Cuántos" name="sóloparamuggles:)Cuántos" placeholder="¿Cuántos?"><br>
+
+
+
+
+        <br><br>
+
+
+
+        <p>Bebidas
+            <p>
+                <input type="checkbox" id="Posion multijugos" name="Posion multijugos" value="Posion multijugos">
+                <label for="Posion multijugos">Posion multijugos</label>
+                <input type="number" id="PosionmultijugosCuantos" name="PosionmultijugosCuantos" placeholder="¿Cuántas?"><br>
+                <input type="checkbox" id="bebida de la resurección" name="bebida de la resurección" value="bebida de la resurección">
+                <label for="bebida de la resurección">bebida de la resurección</label>
+                <input type="number" id="bebidadelaresurecciónCuantos" name="bebidadelaresurecciónCuantos" placeholder="¿Cuántas?"><br>
+                <input type="checkbox" id="Bebida de lágrimas Phoenix" name="Bebida de lágrimas Phoenix" value="Bebida de lágrimas Phoenix">
+                <label for="Bebida de lágrimas Phoenix">Bebida de lágrimas Phoenix</label>
+                <input type="number" id="BebidadelágrimasPhoenixCuantos" name="BebidadelágrimasPhoenixCuantos" placeholder="¿Cuántas?"><br>
+                <input type="checkbox" id="Cerveza de Mantequilla" name="Cerveza de Mantequilla" value="Cerveza de Mantequilla">
+                <label for="Cerveza de Mantequilla">Cerveza de Mantequilla</label>
+                <input type="number" id="CervezadeMantequillaCuantos" name="CervezadeMantequillaCuantos" placeholder="¿Cuántas?"><br>
+                <input type="checkbox" id="Suerte Líquida" name="Suerte Líquida" value="Suerte Líquida">
+                <label for="Suerte Líquida">Suerte Líquida</label>
+                <input type="number" id="SuerteLíquidaCuantos" name="SuerteLíquidaCuantos" placeholder="¿Cuántas?"><br>
+                <input type="checkbox" id="Bebida lunática" name="Bebida lunática" value="Bebida lunática">
+                <label for="Bebida lunática">Bebida lunática</label>
+                <<input type="number" id="BebidalunáticaCuantos" name="BebidalunáticaCuantos" placeholder="¿Cuántas?"><br>
+
+
+                    <br><br>
+                    <input type="reset">
+                    <input type="submit">
+                    <br><br>
+
+    </form>
+
+</body>
+
+</html>
